@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Fantasy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<script src="js/jquery.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+    <header id="home">
+        <section id="navigation">
+            <!-- Top Nav -->
+            <ul id="nav-top-bar">
+              <li class="nav-item"><a href="#ff-1" data-instrument="ff-1">Final Fantasy 10</a></li>
+              <li class="nav-item"><a href="#ff-2" data-instrument="ff-2">Final Fantasy 12</a></li>
+              <li class="nav-item"><a href="#ff-3" data-instrument="ff-3">Final Fantasy 13</a></li>
+            </ul>
+
+            <!-- Bottom Nav -->
+            <!-- Main Banner -->
+            <section id="banner-large">
+                <div id="nav-logo">
+                <!-- Characters to rotate through -->
+                <img src="images/Wakka-Active.png" class="ffx-character-main nav-item nav-item-1"/>
+                <img src="images/Tidus-Active.png" class="ffx-character-main nav-item nav-item-1"/>
+                <img src="images/Yuna-Active.png" class="ffx-character-main nav-item nav-item-2"/>
+                <img src="images/Lulu-Active.png" class="ffx-character-main nav-item nav-item-2"/>
+                <img src="images/Kimahri-Active.png" class="ffx-character-main nav-item nav-item-3"/>
+                <img src="images/Auron-Active.png" class="ffx-character-main nav-item nav-item-3"/>
+                <img src="images/Rikku-Active.png" class="ffx-character-main nav-item nav-item-3"/>
+
+            </section>
+            <!-- Bottom Navigation -->
+            <ul id="nav-bottom-bar">
+                <div id="nav-menu">
+                <li class="nav-item"><a href="#ff-1" data-instrument="ff-1">Final Fantasy 10</a></li>
+                <li class="nav-item"><a href="#ff-2"><span id="grey" data-instrument="ff-2">Final Fantasy 12</span></a></li>
+                <li class="nav-item"><a href="#ff-3" data-instrument="ff-3">Final Fantasy 13</a></li>
+                </div>
+            </ul>
+
+            <ul id="nav-bottom-bar-2" class="nav-2">
+                <div id="nav-menu">
+                <li class="nav-item"><a href="#ff-1" data-instrument="ff-1">&nbsp;</a></li>
+                <li class="nav-item"><a href="#ff-2" data-instrument="ff-2">&nbsp;</a></li>
+                <li class="nav-item"><a href="#ff-3" data-instrument="ff-3">&nbsp;</a></li>
+                </div>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <!-- Audio Section 1 -->
+        <section id="ff-1" class="spacing">
+            <p class="target spacing-center">
+                <img src="images/ffxlogo.png"/>
+            </p>
+            <ul>
+              <li class="ff-sounds-1-1 audio-desc">
+                <a href="#" data-sound="zanarkand" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-1-2 audio-desc">
+                <a href="#" data-sound="tidus-laugh" class="sound"><img/></a>
+            </li>
+          </li>
+            <li class="ff-sounds-1-3 audio-desc">
+                <a href="#" data-sound="advancement" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-1-4 audio-desc">
+                <a href="#" data-sound="victorywin" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-1-5 audio-desc">
+                <a href="#" data-sound="menu-music" class="sound"><img/></a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Audio Section 2 -->
+        <section id="ff-2" class="spacing">
+            <p class="target">
+                <img src="images/ff12logo.png"/>
+            </p>
+          <ul>
+            <li class="ff-sounds-2-1 audio-desc">
+                <a href="#" data-sound="Ashe" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-2-2 audio-desc">
+                <a href="#" data-sound="Menu" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-2-3 audio-desc">
+                <a href="#" data-sound="Bossbattle" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-2-4 audio-desc">
+                <a href="#" data-sound="PenelsTheme" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-2-5 audio-desc">
+                <a href="#" data-sound="Riot" class="sound"><img/></a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Audio Section 3 -->
+        <section id="ff-3" class="spacing">
+            <p class="target">
+                <img src="images/ff13logo.png"/>
+            </p>
+          <ul>
+            <li class="ff-sounds-3-1 audio-desc">
+                <a href="#" data-sound="Atonement" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-3-2 audio-desc">
+                <a href="#" data-sound="DestroyedHometown" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-3-3 audio-desc">
+                <a href="#" data-sound="Paradox" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-3-4 audio-desc">
+                <a href="#" data-sound="ParadoxRemaster" class="sound"><img/></a>
+            </li>
+            <li class="ff-sounds-3-5 audio-desc">
+                <a href="#" data-sound="SaberEdge" class="sound"><img/></a>
+            </li>
+          </ul>
+        </section>
+    </main>
+
+    <!-- Final Fantasy 10 Audio -->
+    <audio data-sound="tidus-laugh" src="sounds/FFX/TidusLaugh.wav"></audio>
+    <audio data-sound="menu-music" src="sounds/FFX/MenuMusic.wav"></audio>
+    <audio data-sound="advancement" src="sounds/FFX/Advancement.wav"></audio>
+    <audio data-sound="victorywin" src="sounds/FFX/VictoryWin.wav"></audio>
+    <audio data-sound="zanarkand" src="sounds/FFX/Zanarkand.wav"></audio>
+
+    <!-- Final Fantasy 12 Audio -->
+    <audio data-sound="Ashe" src="sounds/FF12/Ashe.wav"></audio>
+    <audio data-sound="Menu" src="sounds/FF12/Menu.wav"></audio>
+    <audio data-sound="Bossbattle" src="sounds/FF12/Bossbattle.wav"></audio>
+    <audio data-sound="PenelsTheme" src="sounds/FF12/PenelsTheme.wav"></audio>
+    <audio data-sound="Riot" src="sounds/FF12/Riot.wav"></audio>
+
+    <!-- Final Fantasy 13 Audio -->
+    <audio data-sound="Atonement" src="sounds/FF13/Atonement.wav"></audio>
+    <audio data-sound="DestroyedHometown" src="sounds/FF13/DestroyedHometown.wav"></audio>
+    <audio data-sound="Paradox" src="sounds/FF13/Paradox.wav"></audio>
+    <audio data-sound="ParadoxRemaster" src="sounds/FF13/ParadoxRemaster.wav"></audio>
+    <audio data-sound="SaberEdge" src="sounds/FF13/SaberEdge.wav"></audio>
+    <!-- Footer Section-->
+    <footer>
+        Jordan Brown - Soundboard &copy; 2018
+    </footer>
+</body>
+    <script type="text/javascript" src="js/index.js"></script>
+</html>
