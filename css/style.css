@@ -1,0 +1,618 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: auto;
+    width:100vw;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    overflow-x:hidden;
+}
+
+header{
+    width:100vw;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+/* Top Navigation Start */
+header #navigation{
+    height: 150px;
+    width:auto;
+}
+
+header #navigation #nav-top-bar{
+    display: flex;
+    background:#00273E;
+    width:100vw;
+    height: 30px;
+    color:#FFFFFF;
+    justify-content: flex-end;
+}
+
+header #navigation #nav-bottom-bar{
+    display: flex;
+    width:100vw;
+    height: 30px;
+    color:#FFFFFF;
+    justify-content: flex-end;
+}
+
+header #navigation #nav-top-bar{
+    border-bottom:1px solid #cccccc;
+    background:#346fb7;
+    position:fixed;
+    font-size:12px;
+    z-index:105;
+    visibility: hidden;
+}
+
+#navigation{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Big Banner */
+#banner-large{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('https://img00.deviantart.net/aa1f/i/2010/108/c/b/final_fantasy_x_edited_by_kaztelli.jpg');
+    background-position: 21% 10%;
+    width:100vw !important;
+    border-bottom:1px solid #ffffff;
+    height:270px;
+}
+
+#nav-bottom-bar{
+    /* background: #42586d;
+    background: -moz-linear-gradient(top, #42586d 0%, #3a4c60 100%);
+    background: -webkit-linear-gradient(top, #42586d 0%,#3a4c60 100%);
+    background: linear-gradient(to bottom, #42586d 0%,#3a4c60 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42586d', endColorstr='#3a4c60',GradientType=0 ); */
+    background-image:url("../images/menu-border.png");
+    width:1025px !important;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin: 50px auto;
+    text-align: center;
+    z-index:150;
+    height:70px !important;
+    /* border-bottom:1px solid #ffffff; */
+    position:relative;
+}
+
+
+
+#nav-top-bar li, #nav-bottom-bar li{
+    margin-right:2%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    width:auto;
+}
+
+#nav-logo{
+    display:flex;
+    justify-content: center;
+}
+
+#nav-logo img{
+    margin-top:-15px;
+}
+
+#nav-menu{
+    display:flex;
+    justify-content: center;
+    margin-left:40px;
+}
+
+#nav-menu li a{
+    font-size:14px;
+    color:#ffffff !important;
+    transition: color 0.2s ease-in-out;
+    letter-spacing:1px;
+}
+
+#nav-menu li a:hover{
+    color:#e8ebee !important;
+    transition: color 0.2s ease-in-out;
+}
+
+#nav-bottom-bar li a{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    width:auto;
+    position:relative;
+    top:-30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:13px;
+    position:relative;
+    z-index:120;
+    letter-spacing: 2px;
+
+}
+
+/* #nav-bottom-bar li a:hover, #nav-top-bar li a:hover{
+    color:#F19A3E !important;
+} */
+
+#nav-bottom-bar li:first-child :hover{
+  color:#008efc !important;
+}
+
+#nav-bottom-bar li:last-child :hover{
+  color:#F19A3E !important;
+}
+
+#color-blue{
+    color:#008efc;
+}
+#color-red{
+    color:#F19A3E;
+}
+
+#grey{
+    transition: 0.2s ease-in-out;
+}
+
+#grey:hover{
+    color:#9061ff;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-2{
+    background:#00273E !important;
+    border: none !important;
+    height: 460px !important;
+    position:relative !important;
+    z-index: 50 !important;
+    margin-top:-200px !important;
+    border-top:1px solid #cccccc !important;
+}
+
+
+/* .ffx-character-main-wakka{
+    background-image: url("../images/Wakka-Active.png");
+    width:150px;
+    height:449.7px;
+}
+
+.ffx-character-main-tidus{
+    background-image: url("../images/Tidus-Active.png");
+    width:150px;
+    height:449.7px;
+}
+
+.ffx-character-main-yuna{
+    background-image: url("../images/Yuna-Active.png");
+    width:150px;
+    height:449.7px;
+}
+
+.ffx-character-main-lulu{
+    background-image: url("../images/Lulu-Active.png");
+    width:150px;
+    height:449.7px;
+}
+
+.ffx-character-main-auron{
+    background-image: url("../images/Auron-Active.png");
+    width:150px;
+    height:449.7px;
+}
+
+.ffx-character-main-rikku{
+    background-image: url("../images/Rikku-Active.png");
+    width:150px;
+    height:449.7px;
+}
+
+.ffx-character-main-kimahri{
+    background-image: url("../images/Kimahri-Active.png");
+    width:150px;
+    height:449.7px;
+} */
+
+/* Main Section */
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:#00273E;
+    height:auto;
+    width:100vw;
+}
+
+main section{
+    padding-bottom: 205px;
+    padding-top:50px;
+}
+
+main section p{
+    color:#FFFFFF !important;
+}
+
+main section p:first-child{
+    font-size:24px;
+    padding: 3% 0%;
+    letter-spacing: 1px;
+}
+
+/* Organization of divs */
+.spacing-center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.spacing{
+    width:99%;
+    padding: 2.4% 0% 5% 0.25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Audio Cards */
+.ff-sounds-1-1 img{
+    background-image: url("../images/zanarkand-card.png");
+    padding: 165px 131px;
+
+}
+
+.ff-sounds-1-1 img:hover{
+    background-image: url("../images/zanarkand-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-1-2 img{
+    background-image: url("../images/Tidus-card.png");
+    padding: 165px 131px;
+
+}
+
+.ff-sounds-1-2 img:hover{
+    background-image: url("../images/Tidus-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-1-3 img{
+    background-image: url("../images/advancement-card.png");
+    padding: 165px 131px;
+
+}
+
+.ff-sounds-1-3 img:hover{
+    background-image: url("../images/advancement-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-1-4 img{
+    background-image: url("../images/victory-card.png");
+    padding: 165px 131px;
+
+}
+
+.ff-sounds-1-4 img:hover{
+    background-image: url("../images/victory-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-1-5 img{
+    background-image: url("../images/menu-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-1-5 img:hover{
+    background-image: url("../images/menu-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-2-1 img{
+    background-image: url("../images/ashe-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-2-1 img:hover{
+    background-image: url("../images/ashe-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-2-2 img{
+    background-image: url("../images/ff12menu-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-2-2 img:hover{
+    background-image: url("../images/ff12menu-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-2-3 img{
+    background-image: url("../images/bossbattle-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-2-3 img:hover{
+    background-image: url("../images/bossbattle-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-2-4 img{
+    background-image: url("../images/penelo-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-2-4 img:hover{
+    background-image: url("../images/penelo-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-2-5 img{
+    background-image: url("../images/riot-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-2-5 img:hover{
+    background-image: url("../images/riot-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-3-1 img{
+    background-image: url("../images/atonement-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-3-1 img:hover{
+    background-image: url("../images/atonement-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-3-2 img{
+    background-image: url("../images/hometown-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-3-2 img:hover{
+    background-image: url("../images/hometown-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-3-3 img{
+    background-image: url("../images/paradox-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-3-3 img:hover{
+    background-image: url("../images/paradox-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-3-4 img{
+    background-image: url("../images/paradox-new-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-3-4 img:hover{
+    background-image: url("../images/paradox-new-card-active.png");
+    filter:contrast(120%);
+}
+
+.ff-sounds-3-5 img{
+    background-image: url("../images/saber-card.png");
+    padding: 165px 131px;
+}
+
+.ff-sounds-3-5 img:hover{
+    background-image: url("../images/saber-card-active.png");
+    filter:contrast(120%);
+}
+
+.audio-desc{
+    width:260px;
+    margin: 5% 2% 0% 2%;
+    display: inline-block;
+    position:relative;
+    z-index:200;
+}
+
+.audio-desc p{
+    text-align: center;
+}
+
+.audio-desc img:first-child{
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.audio-desc img:last-child{
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    border:1px solid #cccccc;
+    margin-top:15px;
+    cursor: pointer;
+}
+
+.audio-desc img:first-child:hover{
+    box-shadow: 0px 3px 5px rgba(255,255,255,0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.audio-desc img:last-child:hover{
+    border:1px solid #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.audio-desc .sound-desc{
+    font-size:10px;
+    color:#e2e2e2 !important;
+    text-transform: uppercase;
+}
+
+/* Font upgrades */
+.target{
+    position:relative;
+    z-index:112;
+    top:-105px;
+    max-height:260px;
+}
+
+.target img{
+    position:relative;
+    top:110px;
+}
+
+/* Footer */
+footer{
+    width:100%;
+    height:20px;
+    background:#CCCCCC !important;
+    text-align: center;
+    color:#333;
+    position:relative !important;
+    z-index: 80 !important;
+}
+
+/* Hiding pages */
+#ff-2, #ff-3{
+    display: none;
+}
+
+/* Element Heirarchy */
+
+
+/* Mobile Start & Optimizations */
+@media only screen and (max-width:320px){
+    #nav-top-bar li a{
+        font-size:11px;
+    }
+}
+
+@media only screen and (max-width:1030px){
+    .spacing{
+        margin-top:160px;
+    }
+
+
+
+    #nav-top-bar{
+        font-size:20px;
+    }
+
+    #nav-logo .nav-item{
+        padding-top:40px;
+        width:100%;
+    }
+
+    #nav-bottom-bar{
+        display: none !important;
+    }
+
+    #nav-bottom-bar li a{
+        /* display: none; */
+    }
+
+    header #navigation #nav-top-bar{
+        border-bottom:1px solid #cccccc;
+        background:#346fb7;
+        position:fixed;
+        font-size:12px;
+        z-index:105;
+        visibility: visible;
+    }
+
+    .nav-2{
+        background:#00273E !important;
+        border: none !important;
+        height: 400px !important;
+        position:relative !important;
+        z-index: 50 !important;
+        margin-top:0px !important;
+    }
+
+    #nav-logo img{
+        width:auto !important;
+    }
+}
+
+@media only screen and (max-width:1640px){
+  #nav-logo img{
+      margin-top:-57px;
+  }
+
+  .audio-desc{
+      width:260px;
+      margin: 5% 2% 0% 2%;
+      display: inline-block;
+      position: relative;
+      z-index:101;
+  }
+
+  .nav-top-bar ul{
+      position:relative;
+      z-index:105;
+  }
+}
+
+@media only screen and (max-width:630px){
+     #nav-logo img{
+        width:140px;
+        display: none;
+    }
+
+    #nav-logo{
+        display: none;
+    }
+
+    .target img{
+        width:100%;
+        position:relative;
+        z-index:103;
+    }
+
+    #nav-top-bar{
+        font-size:12px;
+    }
+    #banner-large{
+        height:250px;
+        margin-top:-30px;
+        width:100%;
+    }
+
+}
+
+@media only screen and (max-width:425px and min-width:420px){
+      #banner-large{
+          height:250px;
+          margin-top:33px;
+      }
+    #nav-logo img{
+          display: none;
+        }
+
+      #nav-top-bar{
+          font-size:12px;
+      }
+}
+
+@media only screen and (min-width:1800px){
+  .audio-desc{
+      width:260px;
+      margin: 0% 2% 0% 2%;
+      display: inline-block;
+      position: relative;
+      z-index:101;
+  }
+}
